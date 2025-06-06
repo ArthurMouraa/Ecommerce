@@ -1,12 +1,51 @@
-# React + Vite
+# Aplicação E-commerce – Página Inicial com ReactJS e Integração com API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto consiste em uma página inicial para um e-commerce, desenvolvida usando ReactJS, que consome dados de produtos diretamente da Fake Store API (`https://fakestoreapi.com`).
 
-Currently, two official plugins are available:
+## Recursos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Exibição de uma coleção com 16 produtos.
+- Cada item mostra detalhes como nome, imagem, preço e categoria.
+- Indicador visual "Carregando..." durante a requisição dos dados.
+- Mensagem amigável caso haja falha na obtenção dos produtos.
+- Layout responsivo, adaptando-se bem a diferentes dispositivos.
+- Estrutura baseada em componentes.
 
-## Expanding the ESLint configuration
+## Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **ReactJS** para criação da interface.
+- **Axios** para consumo da a API.
+- **CSS Modules** para estilização
+- **Html** para marcação
+
+## Como executar
+
+Veja abaixo o passo a passo para baixar o código e rodar a aplicação localmente.
+
+### Requisitos
+
+Certifique-se de ter instalado:
+
+- Node.js (recomenda-se a versão LTS)
+- npm ou yarn como gerenciador de pacotes
+
+### Guia de instalação
+
+1. Faça o clone do repositório:
+
+```bash
+git clone https://github.com/lucianosnlima/ecommerce.git
+
+2 -  Entre no diretório do projeto:
+cd meu-app
+
+3 -  Instale as dependências necessárias:
+
+Npm install
+
+4 . Execute a aplicação:
+
+Npm run dev
+
+
+
