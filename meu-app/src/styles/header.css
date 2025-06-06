@@ -1,0 +1,138 @@
+:root {
+  --reserv-color: #FD7C17;
+  --primary-color: #99c8f2;
+  --secundary-color: #3767a6;
+  --third-color: #1b3659;
+
+}
+
+:root {
+  --reserv-color-one: #f28705;
+  --reserv-color-two: #024059;
+  --reserv-color-trhe: #49dbf4;
+
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+
+/*header*/
+
+.headerContainer {
+  background-color: var(--reserv-color-one);
+  color: white;
+  margin-left: 0;
+  width: 100vw;
+  height: 90px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 5px 0px 5px var(--reserv-color-two);
+  /* position: sticky; */
+}
+
+
+/*Logo*/
+.logo {
+  border: solid 2px var(--primary-color);
+}
+
+/*navegacao*/
+
+.navBar {
+  display: flex;
+  max-width: 1450px;
+  /* width: 1200px; */
+  height: 100%;
+  margin: 0 auto;
+  border: solid 2px red;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 200px;
+
+
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.navBar .iconsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  background-color: #49dbf4;
+
+}
+
+
+.navBar .carButton {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+}
+
+.products-count {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 1rem;
+  height: 1rem;
+  bottom: -8px;
+  left: -8px;
+  border-radius: 50%;
+  color: white;
+  font-size: 15px;
+  padding: 0.6rem;
+  ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  gap: 0.25rem;
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+
+.inputContainer input {
+  border: none;
+  outline: none;
+  background-color: #f28705;
+  color: white;
+  padding: 8px;
+
+}
+
+.searchButton {
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  border-radius: 20px;
+
+}
+
+.searchButton:active svg {
+  transform: rotate(20deg);
+  transition: transform 0.1s ease;
+}
