@@ -20,17 +20,17 @@ Para mais informações, acesse: https://fakeapi.platzi.com
 
 1. Clone este repositório:
 
-git clone https://github.com/ArthurMouraa/E-comerce.git
+  git clone https://github.com/ArthurMouraa/E-comerce.git
 
 2. Entre na pasta do projeto:
 
-cd my-app
+  cd my-app
 
 3. Instale as Dependências
 
-npm install
+  npm install
 
 4. Rode o projeto em modo de desenvolvimento
 
-npm run dev
+  npm run dev
 
