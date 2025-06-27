@@ -1,16 +1,36 @@
-<<<<<<< HEAD
-# React + Vite
+#  Tela Inicial de um E-commerce com ReactJS e Consumo de API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma tela inicial de um e-commerce desenvolvida com ReactJS. A aplicação consome dados de produtos a partir de uma API externa e exibe informações como:
 
-Currently, two official plugins are available:
+- Nome do produto  
+- Imagem do produto  
+- Preço  
+- Categoria  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A interface é totalmente responsiva e utiliza componentização com React e estilização com Material-UI.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# E-comerce
->>>>>>> da8d3e46ea26733b035df03ae0ef98722976ffab
+##API Consumida
+
+A API utilizada para obter os dados dos produtos é a [Fake API da Platzi](https://api.escuelajs.co).  
+Para mais informações, acesse: https://fakeapi.platzi.com
+
+
+## Como instalar e usar
+
+1. Clone este repositório:
+
+git clone https://github.com/ArthurMouraa/E-comerce.git
+
+2. Entre na pasta do projeto:
+
+cd my-app
+
+3. Instale as Dependências
+
+npm install
+
+4. Rode o projeto em modo de desenvolvimento
+
+npm run dev
+
