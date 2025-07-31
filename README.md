@@ -1,36 +1,49 @@
-#  Tela Inicial de um E-commerce com ReactJS e Consumo de API
+# E-commerce App - Tela Inicial com ReactJS e Consumo de API
 
-Este projeto é uma tela inicial de um e-commerce desenvolvida com ReactJS. A aplicação consome dados de produtos a partir de uma API externa e exibe informações como:
+Este é um projeto de uma tela inicial de e-commerce desenvolvida com ReactJS que consome dados de produtos da Fake Store API (`https://fakestoreapi.com`).
 
-- Nome do produto  
-- Imagem do produto  
-- Preço  
-- Categoria  
+## Funcionalidades
 
-A interface é totalmente responsiva e utiliza componentização com React e estilização com Material-UI.
+- Exibição de uma lista de produtos (16 itens).
+- Detalhes de cada produto: Nome, Imagem, Preço e Categoria.
+- Indicador de "Carregando..." enquanto os dados da API são buscados.
+- Mensagem de erro caso a API não possa ser acessada.
+- Interface responsiva para diferentes tamanhos de tela.
+- Componentização clara (`ProductList` e `ProductCard`).
 
+## Tecnologias Utilizadas
 
-##API Consumida
+- **ReactJS**: Biblioteca para construção de interfaces de usuário.
+- **React Hooks**: Para gerenciamento de estado, efeitos colaterais e outras atividades.
+- **Fetch API**: Para consumo de dados da API RESTful.
+- **CSS Modules**: Para estilização modular e isolada dos componentes.
 
-A API utilizada para obter os dados dos produtos é a [Fake API da Platzi](https://api.escuelajs.co).  
-Para mais informações, acesse: https://fakeapi.platzi.com
+## Funcionalidades 
+- Verificar produtos
+- Adicionar ao carrinho
+- Remover do carrinho
+- Cálculo do valor do carrinho
+- Efetuar compra.
 
+## Instalação e Execução
 
-## Como instalar e usar
+Siga os passos abaixo para clonar o repositório e rodar a aplicação em sua máquina local.
 
-1. Clone este repositório:
+### Pré-requisitos
 
-  git clone https://github.com/ArthurMouraa/E-comerce.git
+Certifique-se de ter o Node.js e o npm (ou yarn) instalados em seu sistema.
 
-2. Entre na pasta do projeto:
+- [Node.js](https://nodejs.org/) (versão LTS recomendada)
 
-  cd my-app
+### Passos
 
-3. Instale as Dependências
+1.  **Clone o repositório:**
+    `bash git clone https://github.com/lucianosnlima/ecommerce.git`
 
-  npm install
+2.  **Navegue até o diretório do projeto:**
+    `bash cd e-commerce-app`
 
-4. Rode o projeto em modo de desenvolvimento
+3.  **Instale as dependências:**
+    `bash npm install # ou yarn install`
 
-  npm run dev
 
