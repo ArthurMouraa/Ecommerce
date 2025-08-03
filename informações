@@ -1,0 +1,49 @@
+# E-commerce App - Tela Inicial com ReactJS e Consumo de API
+
+Este é um projeto de uma tela inicial de e-commerce desenvolvida com ReactJS que consome dados de produtos da Fake Store API (`https://fakestoreapi.com`).
+
+## Funcionalidades
+
+- Adicionar Produto ao Carrinho
+- Ver preço total dos produtos no carrinho
+- Realizar compra 
+- Exibição de uma lista de produtos.
+- Detalhes de cada produto: Nome, Imagem, Preço e Categoria.
+- Indicador de "Carregando..." enquanto os dados da API são buscados.
+- Mensagem de erro caso a API não possa ser acessada.
+- Interface responsiva para diferentes tamanhos de tela.
+- Componentização clara 
+
+## Recursos Utilizados
+
+- **React Hooks**
+- **Fetch API**
+- **CSS Modules**
+- **CSS MUI (Material UI)**
+
+
+## Instalação e Execução
+
+Siga os passos abaixo para clonar o repositório e rodar a aplicação em sua máquina local.
+
+### Pré-requisitos
+
+Certifique-se de ter o Node.js e o npm (ou yarn) instalados em seu sistema.
+
+- [Node.js](https://nodejs.org/) (versão LTS recomendada)
+
+### Passos
+
+1.  **Clone o repositório:**
+    `bash git clone https://github.com/ArthurMouraa/Ecommerce.git`
+
+2.  **Navegue até o diretório do projeto:**
+    `bash cd e-commerce`
+
+3.  **Instale as dependências:**
+    `bash npm install # ou yarn install`
+
+4.  **Inicie a aplicação:**
+    `bash npm run dev # ou yarn start`
+
+A aplicação será aberta de forma local.
